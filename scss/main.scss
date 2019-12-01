@@ -251,8 +251,22 @@ img {
 
       div {
         height: 100%;
+        color: #fff;
         text-align: center;
         background: $main-color;
+      }
+    }
+  }
+
+  // About C
+  &-c {
+    .about-logos {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 2rem;
+
+      img {
+        width: 70%;
       }
     }
   }
